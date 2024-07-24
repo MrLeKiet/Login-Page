@@ -1,0 +1,185 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Karla", sans-serif;
+}
+
+#login-page{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#content{
+    height: 90%;
+    width: 75%;
+    display: flex;
+    flex-direction: column
+}
+
+.content-top{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: auto;
+}
+
+.content-top > div {
+    width: 100%;
+    height: 20%;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-bottom{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-register{
+    height: 40%;
+    width: 100%;
+}
+
+.username{
+    height: 35%;
+    width: 100%;
+}
+
+.text {
+    padding-top: 9px;
+    height: 25%;
+    width: 100%;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.input-form{
+    padding-top: 5px;
+    height: 70%;
+    width: 100%;
+}
+
+input{
+    width: 92.5%;
+    height: 30%;
+    border-radius: 5px;
+    padding-block: 0;
+    padding-inline: 0;
+    border: #141414 solid 0.5px;
+    padding: 10px;
+}
+
+
+.password{
+    height: 35%;
+    width: 100%;
+}
+
+.confirm-password{
+    height: 35%;
+    width: 100%;
+}
+
+.login-register{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.create-account{
+    height: 25%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.create-account > button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding-block: 0;
+    padding-inline: 0;
+    border-width: 0;
+    border: #0866FF 0.5px solid;
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    background-color: #0866FF;
+}
+
+.create-account > button:hover {
+    color: #0866FF;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.line{
+    width: 80%;
+    height: 0.5%;
+    margin-top: 20px;
+    background-color: #808080;
+}
+
+.check-account{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-account{
+    height: 25%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.login-account > button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding-block: 0;
+    padding-inline: 0;
+    border-width: 0;
+    border: #0866FF 0.5px solid;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0866FF;
+    text-align: center;
+    background-color: white;
+}
+
+.login-account > button:hover {
+    color: white;
+    background-color: #0866FF;
+    cursor: pointer;
+}
